@@ -11,7 +11,7 @@ end
 
 def long_planeteer_calls(short_words)# code an argument here
   # Your code here
-  
+  short_words.each{|element
 end
 
 def find_the_cheese# code an argument here
