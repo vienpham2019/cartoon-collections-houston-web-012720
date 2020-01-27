@@ -11,7 +11,8 @@ end
 
 def long_planeteer_calls(short_words)# code an argument here
   # Your code here
-  short_words.each{|element
+  word = short_words.find{|element| element.length > 4}
+  word ? true : false
 end
 
 def find_the_cheese# code an argument here
